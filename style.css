@@ -1,0 +1,148 @@
+/* you can comment here using ctrl /  */
+
+*{
+    box-sizing: border-box;
+
+}
+body
+{background-image:url("LFC Background2.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+} 
+#nav {
+    color: rgba(19, 15, 235, 0);
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: none;
+    border-style: none;
+    
+}
+#nav a{
+    color:rgb(23, 7, 250);
+    text-decoration: none;
+    font-family: none;
+    
+}
+
+#nav a:hover{
+    color:rgb(238, 13, 13)
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(165, 33, 33);
+    margin-top: 50px;
+    font-size:70px;
+    text-align: center;
+}
+h2{
+    color:rgb(165, 33, 33);
+    margin-top: 40px;
+    font-size:50px;
+}
+h3{
+    color:rgb(165, 33, 33);
+    margin-top: 50px;
+    font-size:40px;
+}
+
+
+p{
+    color:rgb(56, 31, 197);
+    margin-top: 0px;
+    font-size:25px;
+}
+h4{
+    color:rgb(31, 117, 197);
+    margin-top: 50px;
+    font-size:30px;
+}
+h5{
+    color:rgb(165, 33, 33);
+    margin-top: 50px;
+    font-size:50px;
+    text-align: center;
+}
+.Goalkeepers{
+    width:50%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:flex;
+   
+}
+.players{
+    display:flex;
+    flex-wrap:flex;
+}
+.Defenders{
+    width: 50%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:flex;
+}
+
+.First Midfielders{
+    width: 50%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:flex;
+}
+.Second Midfielders{
+    width: 50%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:flex;
+}
+.First Forwards{
+    width: 50%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:flex;
+}
+.Second Midfielders{
+    width: 50%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:flex;
+}
+.center {
+  
+    margin-left: auto;
+    margin-right: auto;
+    justify-content:center;
+    width: 33.3%;
+    height:100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+  
+
+.column {
+    flex: 50%;
+    padding: 0 4px;
+}
+  
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+
+.images {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    height:auto;
+}
+
+.contact{
+    align-items:center;
+
+};
+
